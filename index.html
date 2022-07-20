@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <section>
+      
+        <h2 id="title">#SpurDairy</h2>
+        
+
+        <div class="images">
+            <img src="assets/istockphoto-519861662-612x612.jpg">
+            
+            
+
+        </div>
+
+        <!-- Shed section  -->
+        <div class="opt1">
+            
+            <div class="production">
+                
+                <form action="submit" onsubmit="reportSummary();">
+                    <h3>Fill the form to obtain your periodical income</h3> 
+                    <div id="sheds">
+                        <label for="shed_A">Shed_A: Milk (Litres)</label>
+                        <input id="shed_A" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_B">Shed_B: Milk (Litres)</label>
+                        <input id="shed_B" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_C">Shed_C: Milk (Litres)</label>
+                        <input id="shed_C" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_D">Shed_D: Milk (Litres)</label>
+                        <input id="shed_D" type="number" min="0" required>
+                    </div>
+            
+                    <button type="submit">Submit</button>
+                    <button id="reset" type="reset"();>Reset</button>
+                    
+                </form>
+            </div>
+            
+            <div class="option2">
+                <h3 id="displayTitle">Income Summary</h3>
+                <hr>
+                <p id="output-D"></p>
+
+            </div>
+        </div>
+    
+        
+    </section>
+   
+    
+    <script src="./index.js"></script>
+
+</body>
+</html>
